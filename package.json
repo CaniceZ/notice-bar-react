@@ -1,0 +1,49 @@
+{
+  "name": "notice-bar-react",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "dist/notice-bar-react.es.js",
+  "types": "dist/components/index.d.ts",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build && tsc --declaration",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "package.json"
+  ],
+  "keywords": [
+    "notice-bar",
+    "notice-bar-react",
+    "通知栏",
+    "轮播",
+    "滚动播放"
+  ],
+  "description": "基于react的无线滚动通知栏组件",
+  "author": "zhengchuangjun",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:CaniceZ/notice-bar-react.git"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.66",
+    "@types/react-dom": "^18.2.22",
+    "@typescript-eslint/eslint-plugin": "^7.2.0",
+    "@typescript-eslint/parser": "^7.2.0",
+    "@vitejs/plugin-react": "^4.2.1",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.6",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0",
+    "vite-plugin-libcss": "^1.1.1"
+  }
+}
