@@ -51,4 +51,4 @@ import NoticeBar from 'notice-bar-react'
     </NoticeBar>
 ```
 ## 示例
-![示例gif](https://github.com/CaniceZ/notice-bar-react/tree/main/src/assets/demo.gif)
+![示例gif](https://github.com/CaniceZ/notice-bar-react/blob/main/src/assets/demo.gif)
